@@ -48,7 +48,14 @@
   background-color: #e5e5dc;
 }
 
-.footer{
+.container1{
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+}
+
+footer{
+  margin-top: auto;
   background-color: #db504a;
   border: 5px #db504a solid;
 }
@@ -56,7 +63,6 @@
 .course{
   list-style: none;
 } 
-
 
 .about_container{
   display: grid;
