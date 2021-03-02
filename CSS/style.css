@@ -1,0 +1,85 @@
+
+*{
+  background-color: #edddd0;
+}
+
+.link_back_color {
+  background-color: #e5e5dc;
+  padding-right: 18px;
+  padding-top: 1px;
+
+}
+
+.nav-main > li{
+  background-color: #e5e5dc;
+}
+
+.nav-main{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  background-color: #e5e5dc;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border: 5px #e5e5dc solid;
+  font-family: 'Ubuntu Mono', monospace;
+  color: #e5e5dc ;
+}
+
+.container{
+  display: grid;
+  grid: 700px / auto auto;
+  background-color: #e5e5dc;
+}
+
+.container > div{
+  background-color: #6e8783;
+  order: 2;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.test{
+  background-color: #e5e5dc;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+.course_color, .course{
+  background-color: #e5e5dc;
+}
+
+.footer{
+  background-color: #db504a;
+  border: 5px #db504a solid;
+}
+
+.course{
+  list-style: none;
+} 
+
+
+.about_container{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 20px;
+  background-color: #e5e5dc;
+}
+
+img{
+  width: 100%;
+}
+
+.para-color{
+  background-color: #e5e5dc;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: #db504a;
+}
+
