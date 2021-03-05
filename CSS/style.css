@@ -1,84 +1,79 @@
-
-*{
-  background-color: #edddd0;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  font-size: 10px;
 }
 
-.link_back_color {
-  background-color: #edddd0;
-  padding-right: 30px;
+.container1 {
+  display: grid;
+  grid-template-rows: 4rem 1fr 0rem;
+  grid-template-columns: 250px 1fr;
+  grid-template-areas: 
+        'h h h'
+        's m m'
+        'f f f';
+  width: 100vw;
+  height: 96vh;
+  background-color: #e5e5dc;
 }
 
-.nav-main > li{
-  background-color: #edddd0;
+.header {
+  grid-area: h;
+  background-color:#edddd0;
 }
 
-.nav-main{
-  list-style: none;
+.side {
+  grid-area: s;
+  background-color: #e5e5dc;
+  opacity: 90%;
+}
+
+.main {
+  grid-area: m;
+  background-color: #6e8783;
+  font-size: 3rem;
+}
+
+.main p {
+  font-size: 2rem;
+}
+
+footer {
+  grid-area: f;
+  background-color: #db504a;
+}
+
+footer p {
+  font-size: 2rem;
+  background-color: #db504a;
+}
+
+li {
+  font-size: 4rem;
+  list-style-type: none;
+  margin-right: 3rem;
+}
+
+li a {
+  font-size: 2rem;
+  color: 6e8783;
+  color: #334259;
+  opacity: 100%;
+}
+
+.course li {
+  color: red;
+}
+
+.top {
   display: flex;
   flex-direction: row;
-  justify-content: start;
-  background-color: #edddd0;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  border: 5px #edddd0 solid;
-  font-family: 'Ubuntu Mono', monospace;
-  font-size: 25px;
-  color: #edddd0 ;
-}
-
-.container{
-  display: grid;
-  grid: 700px / auto auto;
-  background-color: #e5e5dc;
-}
-
-.container > div{
-  background-color: #6e8783;
-  order: 2;
-  font-family: 'Ubuntu', sans-serif;
-}
-
-.test{
-  background-color: #e5e5dc;
-  font-family: 'Ubuntu Mono', monospace;
-}
-
-.course_color, .course{
-  background-color: #e5e5dc;
-  color: #334259;
-}
-
-.container1{
-  display: flex;
-  flex-direction: column;
-  min-height: 90vh;
-}
-
-footer{
-  margin-top: auto;
-  background-color: #334259;
-  border: 5px #334259 solid;
   color: #e5e5dc;
 }
 
-.course{
-  list-style: none;
-} 
-
-.about_container{
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-gap: 20px;
-  background-color: #e5e5dc;
-}
-
-img{
-  width: 100%;
-}
-
-.para-color{
-  background-color: #e5e5dc;
-  font-family: 'Ubuntu', sans-serif;
+img {
+  width: 250px;
 }
 
 a:link{
@@ -89,4 +84,3 @@ a:hover{
   text-decoration: underline;
   color: #334259;
 }
-
